@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face { 
+    font-family: "Raleway-Regular"; 
+    src: url(../font/Raleway-Regular.ttf); 
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+h1{
+    font-size: 3rem;
+    color:gold;
+    text-align: center;
+    margin: 0.5rem;
+}
+h2{
+    font-size: 2rem;
+    color:goldenrod;
+    text-align: center;
+    margin: 0.5rem;
+}
+.logo{
+    text-align: center;
+    margin: 10px;
+}
+.logo img{
+    width: 150px;
+    border-radius: 150%;
+}
+.section1, .section3{
+    background-color: #c988ab;
+    text-align: justify;
+}
+.section1 p, .section3 p{
+    margin:10px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color:white;
+    padding: 10px;
+}
+.section2{
+    text-align: center;
+}
+.section2 img{
+    margin: 10px;
+    width: 500px;
+    text-align: justify;
+}
+footer{
+    background-color: #a71c99;
+    padding:20px
+}
+footer h3{
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration:solid;
+}
+
+nav{
+    text-align: center;
+}
+
+.contenedor-imagenes img {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 50px;
+}
+
+.recetas{
+    text-align: center;
+}
+
+.garbanzo{
+    display: block;
+    margin: auto;
+}
+.formulario{
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.botones input[type="submit"],
+.botones input[type="reset"] {
+    font-size: 1em;
+}
+.nosotros{
+    max-width: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 30px;
+}
+
+.garbanzos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inggarbanzos{
+    text-align: center;
+    font-size: 30px;
+}
+.prepgarbanzos{
+    text-align: center;
+    font-size: 30px;
+}
+.paginaindex{
+        background-color: black;
+        list-style: none;
+        margin:20px auto;
+        text-align: center;
+}
+.paginaindex li{
+        display: inline-block;
+        text-align: center;
+}
+.paginaindex li a{
+        padding: 20px;
+        margin:10px;
+        text-decoration: none;
+        display: inline-block;
+        color:greenyellow
+}
+.paginaindex li a:hover{
+        color: black;
+        background-color: greenyellow;
+        border-radius: 50%;
+}
+.audiobomba{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+}
+.tablita{
+    border-collapse: collapse;
+    width: fit-content;
+    margin: auto;
+}
+
+.figure{
+    display: inline-block;
+    vertical-align: top;
+    width: 30rem; 
+    margin: 60px; 
+    text-align: center;
+}
+
+.figuretti{
+    max-width: 100%;
+    height: auto;
+}
+
+.figuretti1{
+    font-style: italic;
+    color: #555;
+}
+.pie{
+    background: linear-gradient(to bottom,  #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,#ff7cd8 100%); 
+    height: 70px;
+    padding: 1rem;
+    border: #880e64 dotted 2px;
+    flex:1;
+    padding: 1rem;
+    margin: 1px;
+    bottom: auto;
+}
+.galeria{
+     background-color: black;
+     font-family: Arial, Helvetica, sans-serif;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     opacity: 1;
+     border: solid white 2px;
+     border-radius: 10px;
+}
+.contenedor {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important; 
+    gap: 20px !important; 
+}
+.garbanzos {
+    width: 100% !important; 
+}
+.inggarbanzos, .prepgarbanzos {
+    list-style: none !important;
+    padding: 0 !important; 
+    font-size: 18px !important; 
+}
+.prepgarbanzos {
+    font-weight: bold !important; 
+}
+.pie {
+    grid-column: span 2 !important; 
+}
+.ubicacion{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    flex-grow: 1;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
+.responsive{
+    text-align: center;
+    margin: 20px;
+}
+.responsive1{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.responsive2{
+    text-align: center;
+    margin-top: 20px
+}
+
